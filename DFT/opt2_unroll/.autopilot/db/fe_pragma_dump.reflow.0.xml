@@ -1,0 +1,7 @@
+<pragmas>
+<pragma file="DFT/dft.cpp" line="21" pragmaType="pipeline" parentfunction="dft" off="0" ii="1" rewind="0" style=""/>
+<pragma file="DFT/dft.cpp" line="7" pragmaType="bind_storage" parentfunction="dft" op="666" impl="208" latency="-1" variable="real_op"/>
+<pragma file="DFT/dft.cpp" line="8" pragmaType="bind_storage" parentfunction="dft" op="666" impl="208" latency="-1" variable="imag_op"/>
+<pragma file="DFT/dft.cpp" line="15" pragmaType="array_partition" parentfunction="dft" dim="1" factor="21" mode="cyclic" dynamic="0" variable="real_op"/>
+<pragma file="DFT/dft.cpp" line="16" pragmaType="array_partition" parentfunction="dft" dim="1" factor="21" mode="cyclic" dynamic="0" variable="imag_op"/>
+</pragmas>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Port 'dft/imag_sample_q1' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="DFT" solutionName="opt2_unroll" date="2022-11-13T15:47:47.021+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dft/imag_sample_d1' to 0." projectName="DFT" solutionName="opt2_unroll" date="2022-11-13T15:47:46.989+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'dft/imag_sample_d1' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="DFT" solutionName="opt2_unroll" date="2022-11-13T15:47:46.987+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dft/imag_sample_we1' to 0." projectName="DFT" solutionName="opt2_unroll" date="2022-11-13T15:47:46.985+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'dft/imag_sample_we1' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="DFT" solutionName="opt2_unroll" date="2022-11-13T15:47:46.983+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dft/imag_sample_ce1' to 0." projectName="DFT" solutionName="opt2_unroll" date="2022-11-13T15:47:46.981+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'dft/imag_sample_ce1' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="DFT" solutionName="opt2_unroll" date="2022-11-13T15:47:46.980+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dft/imag_sample_address1' to 0." projectName="DFT" solutionName="opt2_unroll" date="2022-11-13T15:47:46.978+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'dft/imag_sample_address1' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="DFT" solutionName="opt2_unroll" date="2022-11-13T15:47:46.976+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'dft/imag_sample_q0' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="DFT" solutionName="opt2_unroll" date="2022-11-13T15:47:46.973+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dft/imag_sample_d0' to 0." projectName="DFT" solutionName="opt2_unroll" date="2022-11-13T15:47:46.970+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'dft/imag_sample_d0' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="DFT" solutionName="opt2_unroll" date="2022-11-13T15:47:46.968+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dft/imag_sample_we0' to 0." projectName="DFT" solutionName="opt2_unroll" date="2022-11-13T15:47:46.966+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'dft/imag_sample_we0' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="DFT" solutionName="opt2_unroll" date="2022-11-13T15:47:46.964+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dft/imag_sample_ce0' to 0." projectName="DFT" solutionName="opt2_unroll" date="2022-11-13T15:47:46.963+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'dft/imag_sample_ce0' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="DFT" solutionName="opt2_unroll" date="2022-11-13T15:47:46.961+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dft/imag_sample_address0' to 0." projectName="DFT" solutionName="opt2_unroll" date="2022-11-13T15:47:46.959+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'dft/imag_sample_address0' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="DFT" solutionName="opt2_unroll" date="2022-11-13T15:47:46.957+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 214-167] The program may have out of bound array access (DFT/dft.cpp:112:20)" projectName="DFT" solutionName="opt2_unroll" date="2022-11-13T15:47:44.571+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 214-167] The program may have out of bound array access (DFT/dft.cpp:111:20)" projectName="DFT" solutionName="opt2_unroll" date="2022-11-13T15:47:44.569+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 214-167] The program may have out of bound array access (DFT/dft.cpp:110:20)" projectName="DFT" solutionName="opt2_unroll" date="2022-11-13T15:47:44.567+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 214-167] The program may have out of bound array access (DFT/dft.cpp:109:20)" projectName="DFT" solutionName="opt2_unroll" date="2022-11-13T15:47:44.566+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 214-167] The program may have out of bound array access (DFT/dft.cpp:108:20)" projectName="DFT" solutionName="opt2_unroll" date="2022-11-13T15:47:44.564+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 214-167] The program may have out of bound array access (DFT/dft.cpp:107:20)" projectName="DFT" solutionName="opt2_unroll" date="2022-11-13T15:47:44.562+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 214-167] The program may have out of bound array access (DFT/dft.cpp:106:20)" projectName="DFT" solutionName="opt2_unroll" date="2022-11-13T15:47:44.561+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 214-167] The program may have out of bound array access (DFT/dft.cpp:105:20)" projectName="DFT" solutionName="opt2_unroll" date="2022-11-13T15:47:44.560+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 214-167] The program may have out of bound array access (DFT/dft.cpp:104:20)" projectName="DFT" solutionName="opt2_unroll" date="2022-11-13T15:47:44.558+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 214-167] The program may have out of bound array access (DFT/dft.cpp:103:20)" projectName="DFT" solutionName="opt2_unroll" date="2022-11-13T15:47:44.556+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 214-340] The resource pragma (bind_storage) on top-level function argument, in 'call' is unsupported, please use INTERFACE pragma instead (DFT/dft.cpp:8:9)" projectName="DFT" solutionName="opt2_unroll" date="2022-11-13T15:47:44.555+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 214-340] The resource pragma (bind_storage) on top-level function argument, in 'call' is unsupported, please use INTERFACE pragma instead (DFT/dft.cpp:7:9)" projectName="DFT" solutionName="opt2_unroll" date="2022-11-13T15:47:44.553+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5292] unused parameter 'imag_sample' (DFT/dft.cpp:5:79)" projectName="DFT" solutionName="opt2_unroll" date="2022-11-13T15:47:41.494+0800" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

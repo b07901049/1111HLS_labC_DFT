@@ -1,0 +1,177 @@
+
+
+================================================================
+== Vitis HLS Report for 'dft'
+================================================================
+* Date:           Fri Nov 11 20:36:58 2022
+
+* Version:        2022.1 (Build 3526262 on Mon Apr 18 15:48:16 MDT 2022)
+* Project:        DFT
+* Solution:       baseline (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  5.00 ns|  3.519 ns|     1.35 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +----------+----------+-----------+-----------+----------+----------+---------+
+    |   Latency (cycles)  |   Latency (absolute)  |       Interval      | Pipeline|
+    |    min   |    max   |    min    |    max    |    min   |    max   |   Type  |
+    +----------+----------+-----------+-----------+----------+----------+---------+
+    |  10503169|  10503169|  52.516 ms|  52.516 ms|  10503170|  10503170|       no|
+    +----------+----------+-----------+-----------+----------+----------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-------------------+----------+----------+----------+-----------+-----------+------+----------+
+        |                   |   Latency (cycles)  | Iteration|  Initiation Interval  | Trip |          |
+        |     Loop Name     |    min   |    max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +-------------------+----------+----------+----------+-----------+-----------+------+----------+
+        |- VITIS_LOOP_17_1  |  10503168|  10503168|     10257|          -|          -|  1024|        no|
+        +-------------------+----------+----------+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 5
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 4 
+4 --> 5 
+5 --> 2 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 1.58>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%k = alloca i32 1"   --->   Operation 6 'alloca' 'k' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%spectopmodule_ln5 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_1" [DFT/dft.cpp:5]   --->   Operation 7 'spectopmodule' 'spectopmodule_ln5' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %real_sample, void @empty, i32 0, i32 0, void @empty_0, i32 4294967295, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 8 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i32 %real_sample"   --->   Operation 9 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %imag_sample, void @empty, i32 0, i32 0, void @empty_0, i32 4294967295, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 10 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i32 %imag_sample"   --->   Operation 11 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %real_op, void @empty, i32 0, i32 0, void @empty_0, i32 4294967295, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 12 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i32 %real_op"   --->   Operation 13 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %imag_op, void @empty, i32 0, i32 0, void @empty_0, i32 4294967295, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 14 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i32 %imag_op"   --->   Operation 15 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (1.58ns)   --->   "%store_ln17 = store i11 0, i11 %k" [DFT/dft.cpp:17]   --->   Operation 16 'store' 'store_ln17' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%br_ln17 = br void %VITIS_LOOP_19_2" [DFT/dft.cpp:17]   --->   Operation 17 'br' 'br_ln17' <Predicate = true> <Delay = 0.00>
+
+State 2 <SV = 1> <Delay = 3.46>
+ST_2 : Operation 18 [1/1] (0.00ns)   --->   "%k_1 = load i11 %k" [DFT/dft.cpp:20]   --->   Operation 18 'load' 'k_1' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 19 [1/1] (1.88ns)   --->   "%icmp_ln17 = icmp_eq  i11 %k_1, i11 1024" [DFT/dft.cpp:17]   --->   Operation 19 'icmp' 'icmp_ln17' <Predicate = true> <Delay = 1.88> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.88> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 20 [1/1] (0.00ns)   --->   "%empty = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 1024, i64 1024, i64 1024"   --->   Operation 20 'speclooptripcount' 'empty' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 21 [1/1] (1.63ns)   --->   "%add_ln17 = add i11 %k_1, i11 1" [DFT/dft.cpp:17]   --->   Operation 21 'add' 'add_ln17' <Predicate = true> <Delay = 1.63> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.63> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 22 [1/1] (0.00ns)   --->   "%br_ln17 = br i1 %icmp_ln17, void %VITIS_LOOP_19_2.split, void %for.end19" [DFT/dft.cpp:17]   --->   Operation 22 'br' 'br_ln17' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 23 [1/1] (0.00ns)   --->   "%zext_ln17 = zext i11 %k_1" [DFT/dft.cpp:17]   --->   Operation 23 'zext' 'zext_ln17' <Predicate = (!icmp_ln17)> <Delay = 0.00>
+ST_2 : Operation 24 [1/1] (0.00ns)   --->   "%trunc_ln20 = trunc i11 %k_1" [DFT/dft.cpp:20]   --->   Operation 24 'trunc' 'trunc_ln20' <Predicate = (!icmp_ln17)> <Delay = 0.00>
+ST_2 : Operation 25 [1/1] (0.00ns)   --->   "%real_op_addr = getelementptr i32 %real_op, i64 0, i64 %zext_ln17" [DFT/dft.cpp:21]   --->   Operation 25 'getelementptr' 'real_op_addr' <Predicate = (!icmp_ln17)> <Delay = 0.00>
+ST_2 : Operation 26 [2/2] (3.25ns)   --->   "%real_op_load = load i10 %real_op_addr" [DFT/dft.cpp:21]   --->   Operation 26 'load' 'real_op_load' <Predicate = (!icmp_ln17)> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 1024> <RAM>
+ST_2 : Operation 27 [1/1] (0.00ns)   --->   "%imag_op_addr = getelementptr i32 %imag_op, i64 0, i64 %zext_ln17" [DFT/dft.cpp:22]   --->   Operation 27 'getelementptr' 'imag_op_addr' <Predicate = (!icmp_ln17)> <Delay = 0.00>
+ST_2 : Operation 28 [2/2] (3.25ns)   --->   "%imag_op_load = load i10 %imag_op_addr" [DFT/dft.cpp:22]   --->   Operation 28 'load' 'imag_op_load' <Predicate = (!icmp_ln17)> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 1024> <RAM>
+ST_2 : Operation 29 [1/1] (1.58ns)   --->   "%store_ln17 = store i11 %add_ln17, i11 %k" [DFT/dft.cpp:17]   --->   Operation 29 'store' 'store_ln17' <Predicate = (!icmp_ln17)> <Delay = 1.58>
+ST_2 : Operation 30 [1/1] (0.00ns)   --->   "%ret_ln30 = ret" [DFT/dft.cpp:30]   --->   Operation 30 'ret' 'ret_ln30' <Predicate = (icmp_ln17)> <Delay = 0.00>
+
+State 3 <SV = 2> <Delay = 3.25>
+ST_3 : Operation 31 [1/2] (3.25ns)   --->   "%real_op_load = load i10 %real_op_addr" [DFT/dft.cpp:21]   --->   Operation 31 'load' 'real_op_load' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 1024> <RAM>
+ST_3 : Operation 32 [1/2] (3.25ns)   --->   "%imag_op_load = load i10 %imag_op_addr" [DFT/dft.cpp:22]   --->   Operation 32 'load' 'imag_op_load' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 1024> <RAM>
+
+State 4 <SV = 3> <Delay = 3.31>
+ST_4 : Operation 33 [1/1] (0.00ns)   --->   "%bitcast_ln21 = bitcast i32 %real_op_load" [DFT/dft.cpp:21]   --->   Operation 33 'bitcast' 'bitcast_ln21' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 34 [1/1] (0.00ns)   --->   "%bitcast_ln22 = bitcast i32 %imag_op_load" [DFT/dft.cpp:22]   --->   Operation 34 'bitcast' 'bitcast_ln22' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 35 [2/2] (3.31ns)   --->   "%call_ln22 = call void @dft_Pipeline_VITIS_LOOP_19_2, i32 %bitcast_ln22, i32 %bitcast_ln21, i32 %imag_op, i10 %trunc_ln20, i32 %real_op, i10 %trunc_ln20, i32 %real_sample, i32 %cos_coefficients_table, i32 %sin_coefficients_table" [DFT/dft.cpp:22]   --->   Operation 35 'call' 'call_ln22' <Predicate = true> <Delay = 3.31> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 5 <SV = 4> <Delay = 0.00>
+ST_5 : Operation 36 [1/1] (0.00ns)   --->   "%specloopname_ln7 = specloopname void @_ssdm_op_SpecLoopName, void @empty_3" [DFT/dft.cpp:7]   --->   Operation 36 'specloopname' 'specloopname_ln7' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 37 [1/2] (0.00ns)   --->   "%call_ln22 = call void @dft_Pipeline_VITIS_LOOP_19_2, i32 %bitcast_ln22, i32 %bitcast_ln21, i32 %imag_op, i10 %trunc_ln20, i32 %real_op, i10 %trunc_ln20, i32 %real_sample, i32 %cos_coefficients_table, i32 %sin_coefficients_table" [DFT/dft.cpp:22]   --->   Operation 37 'call' 'call_ln22' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_5 : Operation 38 [1/1] (0.00ns)   --->   "%br_ln17 = br void %VITIS_LOOP_19_2" [DFT/dft.cpp:17]   --->   Operation 38 'br' 'br_ln17' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 5ns, clock uncertainty: 1.35ns.
+
+ <State 1>: 1.59ns
+The critical path consists of the following:
+	'alloca' operation ('k') [7]  (0 ns)
+	'store' operation ('store_ln17', DFT/dft.cpp:17) of constant 0 on local variable 'k' [17]  (1.59 ns)
+
+ <State 2>: 3.47ns
+The critical path consists of the following:
+	'load' operation ('k', DFT/dft.cpp:20) on local variable 'k' [20]  (0 ns)
+	'getelementptr' operation ('real_op_addr', DFT/dft.cpp:21) [29]  (0 ns)
+	'load' operation ('real_op_load', DFT/dft.cpp:21) on array 'real_op' [30]  (3.25 ns)
+	blocking operation 0.214 ns on control path)
+
+ <State 3>: 3.25ns
+The critical path consists of the following:
+	'load' operation ('real_op_load', DFT/dft.cpp:21) on array 'real_op' [30]  (3.25 ns)
+
+ <State 4>: 3.32ns
+The critical path consists of the following:
+	'call' operation ('call_ln22', DFT/dft.cpp:22) to 'dft_Pipeline_VITIS_LOOP_19_2' [35]  (3.32 ns)
+
+ <State 5>: 0ns
+The critical path consists of the following:
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

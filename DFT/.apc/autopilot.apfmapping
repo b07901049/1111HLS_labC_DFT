@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="coefficients1024.h" path="D:\1111HLS\LabC\DFT\DFT\coefficients1024.h"/>
+    <originFiles name="dft.cpp" path="D:\1111HLS\LabC\DFT\DFT\dft.cpp"/>
+    <originFiles name="dft.h" path="D:\1111HLS\LabC\DFT\DFT\dft.h"/>
+  </source>
+  <testbench>
+    <originFiles name="dft_test.cpp" path="D:\1111HLS\LabC\DFT\DFT\dft_test.cpp"/>
+    <originFiles name="out.gold.dat" path="D:\1111HLS\LabC\DFT\DFT\out.gold.dat"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

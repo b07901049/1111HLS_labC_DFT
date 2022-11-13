@@ -1,0 +1,47 @@
+set depth_list {
+{real_sample 1024}
+{imag_sample 1024}
+{real_op_0 49}
+{real_op_1 49}
+{real_op_2 49}
+{real_op_3 49}
+{real_op_4 49}
+{real_op_5 49}
+{real_op_6 49}
+{real_op_7 49}
+{real_op_8 49}
+{real_op_9 49}
+{real_op_10 49}
+{real_op_11 49}
+{real_op_12 49}
+{real_op_13 49}
+{real_op_14 49}
+{real_op_15 49}
+{real_op_16 49}
+{real_op_17 49}
+{real_op_18 49}
+{real_op_19 49}
+{real_op_20 49}
+{imag_op_0 49}
+{imag_op_1 49}
+{imag_op_2 49}
+{imag_op_3 49}
+{imag_op_4 49}
+{imag_op_5 49}
+{imag_op_6 49}
+{imag_op_7 49}
+{imag_op_8 49}
+{imag_op_9 49}
+{imag_op_10 49}
+{imag_op_11 49}
+{imag_op_12 49}
+{imag_op_13 49}
+{imag_op_14 49}
+{imag_op_15 49}
+{imag_op_16 49}
+{imag_op_17 49}
+{imag_op_18 49}
+{imag_op_19 49}
+{imag_op_20 49}
+}
+set trans_num 1

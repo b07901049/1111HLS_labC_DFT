@@ -1,0 +1,64 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="DFT/dft.cpp:5:79" msg_body="unused parameter 'imag_sample'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="D:/1111HLS/LabC/DFT/DFT/opt2_unroll/csynth.tcl:17:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="dft" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=dft" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="D:/1111HLS/LabC/DFT/DFT/opt2_unroll/directives.tcl:6:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="dft" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=dft" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="D:/1111HLS/LabC/DFT/DFT/opt2_unroll/directives.tcl:7:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="dft" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=real_op op=fadd" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="DFT/dft.cpp:7:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dft" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=real_op type=ram_2p" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="DFT/dft.cpp:8:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dft" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=imag_op type=ram_2p" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="DFT/dft.cpp:15:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dft" ARG_PragmaIsValid="1" ARG_PragmaOptions="dim=1 factor=21 type=cyclic variable=real_op" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="DFT/dft.cpp:16:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dft" ARG_PragmaIsValid="1" ARG_PragmaOptions="dim=1 factor=21 type=cyclic variable=imag_op" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="DFT/dft.cpp:21:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dft" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-340" msg_severity="WARNING" msg_loc="DFT/dft.cpp:7:9" msg_body="The resource pragma (bind_storage) on top-level function argument, in 'call' is unsupported, please use INTERFACE pragma instead">
+        <args Pragma="call"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-340" msg_severity="WARNING" msg_loc="DFT/dft.cpp:8:9" msg_body="The resource pragma (bind_storage) on top-level function argument, in 'call' is unsupported, please use INTERFACE pragma instead">
+        <args Pragma="call"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-167" msg_severity="WARNING" msg_loc="DFT/dft.cpp:103:20" msg_body="The program may have out of bound array access"/>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-167" msg_severity="WARNING" msg_loc="DFT/dft.cpp:104:20" msg_body="The program may have out of bound array access"/>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-167" msg_severity="WARNING" msg_loc="DFT/dft.cpp:105:20" msg_body="The program may have out of bound array access"/>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-167" msg_severity="WARNING" msg_loc="DFT/dft.cpp:106:20" msg_body="The program may have out of bound array access"/>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-167" msg_severity="WARNING" msg_loc="DFT/dft.cpp:107:20" msg_body="The program may have out of bound array access"/>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-167" msg_severity="WARNING" msg_loc="DFT/dft.cpp:108:20" msg_body="The program may have out of bound array access"/>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-167" msg_severity="WARNING" msg_loc="DFT/dft.cpp:109:20" msg_body="The program may have out of bound array access"/>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-167" msg_severity="WARNING" msg_loc="DFT/dft.cpp:110:20" msg_body="The program may have out of bound array access"/>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-167" msg_severity="WARNING" msg_loc="DFT/dft.cpp:111:20" msg_body="The program may have out of bound array access"/>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-167" msg_severity="WARNING" msg_loc="DFT/dft.cpp:112:20" msg_body="The program may have out of bound array access"/>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="DFT/dft.cpp:6:0" msg_body="Applying array_partition to 'real_op': Cyclic partitioning with factor 21 on dimension 1.">
+        <args Dim="1" Factor="21" Mode="Cyclic" UOName="real_op"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="DFT/dft.cpp:6:0" msg_body="Applying array_partition to 'imag_op': Cyclic partitioning with factor 21 on dimension 1.">
+        <args Dim="1" Factor="21" Mode="Cyclic" UOName="imag_op"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="DFT/dft.cpp:21:9" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'cos_coefficients_table' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="cos_coefficients_table" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="DFT/dft.cpp:21:9" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'sin_coefficients_table' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="sin_coefficients_table" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="DFT/coefficients1024.h:27:0" msg_body="Applying array_partition to '_ZL22sin_coefficients_table': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="_ZL22sin_coefficients_table"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="DFT/coefficients1024.h:1:0" msg_body="Applying array_partition to '_ZL22cos_coefficients_table': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="_ZL22cos_coefficients_table"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

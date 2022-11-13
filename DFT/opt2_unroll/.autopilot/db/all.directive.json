@@ -1,0 +1,56 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [
+        {
+          "functionName": "dft",
+          "label": "",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "D:\/1111HLS\/LabC\/DFT\/DFT\/opt2_unroll\/directives.tcl",
+          "sourceLine": "6",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "dft"
+              }]
+          }
+        },
+        {
+          "functionName": "dft",
+          "label": "",
+          "functionLabel": "",
+          "id": "2",
+          "sourceFile": "D:\/1111HLS\/LabC\/DFT\/DFT\/opt2_unroll\/directives.tcl",
+          "sourceLine": "7",
+          "pragma": {
+            "name": "BIND_OP",
+            "option": [
+              {
+                "name": "variable",
+                "value": "real_op"
+              },
+              {
+                "name": "op",
+                "value": "fadd"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "dft",
+          "label": "",
+          "functionLabel": "",
+          "id": "3",
+          "sourceFile": "D:\/1111HLS\/LabC\/DFT\/DFT\/opt2_unroll\/csynth.tcl",
+          "sourceLine": "17",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "dft"
+              }]
+          }
+        }
+      ]
+    }]}

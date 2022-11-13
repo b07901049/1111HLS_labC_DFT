@@ -1,0 +1,1736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="dft.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_dataflow_monitor_sv " />
+            <top_module name="apatb_dft_top" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0ns"></ZoomStartTime>
+      <ZoomEndTime time="2000ns"></ZoomEndTime>
+      <Cursor1Time time="0ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="257"></NameColumnWidth>
+      <ValueColumnWidth column_width="84"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="HLS Process Summary Group" type="group">
+      <obj_property name="label">HLS Process Summary</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/apatb_dft_top/AESL_inst_dft//AESL_inst_dft_activity" type="group">
+         <obj_property name="label">AESL_inst_dft_activity</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="UseFullPath">true</obj_property>
+         <obj_property name="ElementShortName">AESL_inst_dft_activity</obj_property>
+         <obj_property name="ObjectShortName">AESL_inst_dft_activity</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+         <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">turquoise</obj_property>
+         <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+         <obj_property name="Render_Data">/apatb_dft_top/AESL_inst_dft//AESL_inst_dft_activity.dataflowTxWaveData.Cycles</obj_property>
+         <obj_property name="Value_Data">/apatb_dft_top/AESL_inst_dft//AESL_inst_dft_activity.dataflowTxWaveData.OutStanding</obj_property>
+         <obj_property name="Detail_Data">/apatb_dft_top/AESL_inst_dft//AESL_inst_dft_activity.dataflowTxTooltipData</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/AESL_inst_dft_activity" type="protoinst">
+      <obj_property name="ElementShortName">AESL_inst_dft_activity</obj_property>
+      <obj_property name="ObjectShortName">AESL_inst_dft_activity</obj_property>
+   </wvobject>
+   <wvobject fp_name="AESL_inst_dft_group" type="group">
+      <obj_property name="label">AESL_inst_dft</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="AESL_inst_dft_Handshake_group" type="group">
+         <obj_property name="label">Block-level handshake</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/ap_start" type="logic">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/ap_ready" type="logic">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/ap_done" type="logic">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group17" type="group">
+      <obj_property name="label">Design Top Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group18" type="group">
+         <obj_property name="label">C InOuts</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group19" type="group">
+            <obj_property name="label">return(memory)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_20_q1" type="array">
+               <obj_property name="ElementShortName">imag_op_20_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_20_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_20_ce1" type="logic">
+               <obj_property name="ElementShortName">imag_op_20_ce1</obj_property>
+               <obj_property name="ObjectShortName">imag_op_20_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_20_address1" type="array">
+               <obj_property name="ElementShortName">imag_op_20_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_20_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_20_d0" type="array">
+               <obj_property name="ElementShortName">imag_op_20_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_20_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_20_we0" type="logic">
+               <obj_property name="ElementShortName">imag_op_20_we0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_20_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_20_ce0" type="logic">
+               <obj_property name="ElementShortName">imag_op_20_ce0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_20_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_20_address0" type="array">
+               <obj_property name="ElementShortName">imag_op_20_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_20_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_19_q1" type="array">
+               <obj_property name="ElementShortName">imag_op_19_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_19_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_19_ce1" type="logic">
+               <obj_property name="ElementShortName">imag_op_19_ce1</obj_property>
+               <obj_property name="ObjectShortName">imag_op_19_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_19_address1" type="array">
+               <obj_property name="ElementShortName">imag_op_19_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_19_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_19_d0" type="array">
+               <obj_property name="ElementShortName">imag_op_19_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_19_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_19_we0" type="logic">
+               <obj_property name="ElementShortName">imag_op_19_we0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_19_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_19_ce0" type="logic">
+               <obj_property name="ElementShortName">imag_op_19_ce0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_19_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_19_address0" type="array">
+               <obj_property name="ElementShortName">imag_op_19_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_19_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_18_q1" type="array">
+               <obj_property name="ElementShortName">imag_op_18_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_18_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_18_ce1" type="logic">
+               <obj_property name="ElementShortName">imag_op_18_ce1</obj_property>
+               <obj_property name="ObjectShortName">imag_op_18_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_18_address1" type="array">
+               <obj_property name="ElementShortName">imag_op_18_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_18_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_18_d0" type="array">
+               <obj_property name="ElementShortName">imag_op_18_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_18_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_18_we0" type="logic">
+               <obj_property name="ElementShortName">imag_op_18_we0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_18_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_18_ce0" type="logic">
+               <obj_property name="ElementShortName">imag_op_18_ce0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_18_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_18_address0" type="array">
+               <obj_property name="ElementShortName">imag_op_18_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_18_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_17_q1" type="array">
+               <obj_property name="ElementShortName">imag_op_17_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_17_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_17_ce1" type="logic">
+               <obj_property name="ElementShortName">imag_op_17_ce1</obj_property>
+               <obj_property name="ObjectShortName">imag_op_17_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_17_address1" type="array">
+               <obj_property name="ElementShortName">imag_op_17_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_17_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_17_d0" type="array">
+               <obj_property name="ElementShortName">imag_op_17_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_17_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_17_we0" type="logic">
+               <obj_property name="ElementShortName">imag_op_17_we0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_17_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_17_ce0" type="logic">
+               <obj_property name="ElementShortName">imag_op_17_ce0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_17_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_17_address0" type="array">
+               <obj_property name="ElementShortName">imag_op_17_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_17_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_16_q1" type="array">
+               <obj_property name="ElementShortName">imag_op_16_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_16_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_16_ce1" type="logic">
+               <obj_property name="ElementShortName">imag_op_16_ce1</obj_property>
+               <obj_property name="ObjectShortName">imag_op_16_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_16_address1" type="array">
+               <obj_property name="ElementShortName">imag_op_16_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_16_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_16_d0" type="array">
+               <obj_property name="ElementShortName">imag_op_16_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_16_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_16_we0" type="logic">
+               <obj_property name="ElementShortName">imag_op_16_we0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_16_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_16_ce0" type="logic">
+               <obj_property name="ElementShortName">imag_op_16_ce0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_16_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_16_address0" type="array">
+               <obj_property name="ElementShortName">imag_op_16_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_16_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_15_q1" type="array">
+               <obj_property name="ElementShortName">imag_op_15_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_15_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_15_ce1" type="logic">
+               <obj_property name="ElementShortName">imag_op_15_ce1</obj_property>
+               <obj_property name="ObjectShortName">imag_op_15_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_15_address1" type="array">
+               <obj_property name="ElementShortName">imag_op_15_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_15_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_15_d0" type="array">
+               <obj_property name="ElementShortName">imag_op_15_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_15_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_15_we0" type="logic">
+               <obj_property name="ElementShortName">imag_op_15_we0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_15_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_15_ce0" type="logic">
+               <obj_property name="ElementShortName">imag_op_15_ce0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_15_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_15_address0" type="array">
+               <obj_property name="ElementShortName">imag_op_15_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_15_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_14_q1" type="array">
+               <obj_property name="ElementShortName">imag_op_14_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_14_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_14_ce1" type="logic">
+               <obj_property name="ElementShortName">imag_op_14_ce1</obj_property>
+               <obj_property name="ObjectShortName">imag_op_14_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_14_address1" type="array">
+               <obj_property name="ElementShortName">imag_op_14_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_14_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_14_d0" type="array">
+               <obj_property name="ElementShortName">imag_op_14_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_14_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_14_we0" type="logic">
+               <obj_property name="ElementShortName">imag_op_14_we0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_14_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_14_ce0" type="logic">
+               <obj_property name="ElementShortName">imag_op_14_ce0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_14_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_14_address0" type="array">
+               <obj_property name="ElementShortName">imag_op_14_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_14_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_13_q1" type="array">
+               <obj_property name="ElementShortName">imag_op_13_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_13_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_13_ce1" type="logic">
+               <obj_property name="ElementShortName">imag_op_13_ce1</obj_property>
+               <obj_property name="ObjectShortName">imag_op_13_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_13_address1" type="array">
+               <obj_property name="ElementShortName">imag_op_13_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_13_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_13_d0" type="array">
+               <obj_property name="ElementShortName">imag_op_13_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_13_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_13_we0" type="logic">
+               <obj_property name="ElementShortName">imag_op_13_we0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_13_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_13_ce0" type="logic">
+               <obj_property name="ElementShortName">imag_op_13_ce0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_13_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_13_address0" type="array">
+               <obj_property name="ElementShortName">imag_op_13_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_13_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_12_q1" type="array">
+               <obj_property name="ElementShortName">imag_op_12_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_12_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_12_ce1" type="logic">
+               <obj_property name="ElementShortName">imag_op_12_ce1</obj_property>
+               <obj_property name="ObjectShortName">imag_op_12_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_12_address1" type="array">
+               <obj_property name="ElementShortName">imag_op_12_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_12_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_12_d0" type="array">
+               <obj_property name="ElementShortName">imag_op_12_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_12_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_12_we0" type="logic">
+               <obj_property name="ElementShortName">imag_op_12_we0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_12_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_12_ce0" type="logic">
+               <obj_property name="ElementShortName">imag_op_12_ce0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_12_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_12_address0" type="array">
+               <obj_property name="ElementShortName">imag_op_12_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_12_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_11_q1" type="array">
+               <obj_property name="ElementShortName">imag_op_11_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_11_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_11_ce1" type="logic">
+               <obj_property name="ElementShortName">imag_op_11_ce1</obj_property>
+               <obj_property name="ObjectShortName">imag_op_11_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_11_address1" type="array">
+               <obj_property name="ElementShortName">imag_op_11_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_11_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_11_d0" type="array">
+               <obj_property name="ElementShortName">imag_op_11_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_11_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_11_we0" type="logic">
+               <obj_property name="ElementShortName">imag_op_11_we0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_11_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_11_ce0" type="logic">
+               <obj_property name="ElementShortName">imag_op_11_ce0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_11_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_11_address0" type="array">
+               <obj_property name="ElementShortName">imag_op_11_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_11_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_10_q1" type="array">
+               <obj_property name="ElementShortName">imag_op_10_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_10_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_10_ce1" type="logic">
+               <obj_property name="ElementShortName">imag_op_10_ce1</obj_property>
+               <obj_property name="ObjectShortName">imag_op_10_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_10_address1" type="array">
+               <obj_property name="ElementShortName">imag_op_10_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_10_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_10_d0" type="array">
+               <obj_property name="ElementShortName">imag_op_10_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_10_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_10_we0" type="logic">
+               <obj_property name="ElementShortName">imag_op_10_we0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_10_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_10_ce0" type="logic">
+               <obj_property name="ElementShortName">imag_op_10_ce0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_10_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_10_address0" type="array">
+               <obj_property name="ElementShortName">imag_op_10_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_10_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_9_q1" type="array">
+               <obj_property name="ElementShortName">imag_op_9_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_9_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_9_ce1" type="logic">
+               <obj_property name="ElementShortName">imag_op_9_ce1</obj_property>
+               <obj_property name="ObjectShortName">imag_op_9_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_9_address1" type="array">
+               <obj_property name="ElementShortName">imag_op_9_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_9_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_9_d0" type="array">
+               <obj_property name="ElementShortName">imag_op_9_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_9_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_9_we0" type="logic">
+               <obj_property name="ElementShortName">imag_op_9_we0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_9_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_9_ce0" type="logic">
+               <obj_property name="ElementShortName">imag_op_9_ce0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_9_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_9_address0" type="array">
+               <obj_property name="ElementShortName">imag_op_9_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_9_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_8_q1" type="array">
+               <obj_property name="ElementShortName">imag_op_8_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_8_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_8_ce1" type="logic">
+               <obj_property name="ElementShortName">imag_op_8_ce1</obj_property>
+               <obj_property name="ObjectShortName">imag_op_8_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_8_address1" type="array">
+               <obj_property name="ElementShortName">imag_op_8_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_8_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_8_d0" type="array">
+               <obj_property name="ElementShortName">imag_op_8_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_8_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_8_we0" type="logic">
+               <obj_property name="ElementShortName">imag_op_8_we0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_8_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_8_ce0" type="logic">
+               <obj_property name="ElementShortName">imag_op_8_ce0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_8_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_8_address0" type="array">
+               <obj_property name="ElementShortName">imag_op_8_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_8_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_7_q1" type="array">
+               <obj_property name="ElementShortName">imag_op_7_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_7_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_7_ce1" type="logic">
+               <obj_property name="ElementShortName">imag_op_7_ce1</obj_property>
+               <obj_property name="ObjectShortName">imag_op_7_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_7_address1" type="array">
+               <obj_property name="ElementShortName">imag_op_7_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_7_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_7_d0" type="array">
+               <obj_property name="ElementShortName">imag_op_7_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_7_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_7_we0" type="logic">
+               <obj_property name="ElementShortName">imag_op_7_we0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_7_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_7_ce0" type="logic">
+               <obj_property name="ElementShortName">imag_op_7_ce0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_7_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_7_address0" type="array">
+               <obj_property name="ElementShortName">imag_op_7_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_7_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_6_q1" type="array">
+               <obj_property name="ElementShortName">imag_op_6_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_6_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_6_ce1" type="logic">
+               <obj_property name="ElementShortName">imag_op_6_ce1</obj_property>
+               <obj_property name="ObjectShortName">imag_op_6_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_6_address1" type="array">
+               <obj_property name="ElementShortName">imag_op_6_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_6_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_6_d0" type="array">
+               <obj_property name="ElementShortName">imag_op_6_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_6_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_6_we0" type="logic">
+               <obj_property name="ElementShortName">imag_op_6_we0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_6_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_6_ce0" type="logic">
+               <obj_property name="ElementShortName">imag_op_6_ce0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_6_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_6_address0" type="array">
+               <obj_property name="ElementShortName">imag_op_6_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_6_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_5_q1" type="array">
+               <obj_property name="ElementShortName">imag_op_5_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_5_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_5_ce1" type="logic">
+               <obj_property name="ElementShortName">imag_op_5_ce1</obj_property>
+               <obj_property name="ObjectShortName">imag_op_5_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_5_address1" type="array">
+               <obj_property name="ElementShortName">imag_op_5_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_5_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_5_d0" type="array">
+               <obj_property name="ElementShortName">imag_op_5_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_5_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_5_we0" type="logic">
+               <obj_property name="ElementShortName">imag_op_5_we0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_5_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_5_ce0" type="logic">
+               <obj_property name="ElementShortName">imag_op_5_ce0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_5_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_5_address0" type="array">
+               <obj_property name="ElementShortName">imag_op_5_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_5_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_4_q1" type="array">
+               <obj_property name="ElementShortName">imag_op_4_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_4_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_4_ce1" type="logic">
+               <obj_property name="ElementShortName">imag_op_4_ce1</obj_property>
+               <obj_property name="ObjectShortName">imag_op_4_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_4_address1" type="array">
+               <obj_property name="ElementShortName">imag_op_4_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_4_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_4_d0" type="array">
+               <obj_property name="ElementShortName">imag_op_4_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_4_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_4_we0" type="logic">
+               <obj_property name="ElementShortName">imag_op_4_we0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_4_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_4_ce0" type="logic">
+               <obj_property name="ElementShortName">imag_op_4_ce0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_4_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_4_address0" type="array">
+               <obj_property name="ElementShortName">imag_op_4_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_4_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_3_q1" type="array">
+               <obj_property name="ElementShortName">imag_op_3_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_3_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_3_ce1" type="logic">
+               <obj_property name="ElementShortName">imag_op_3_ce1</obj_property>
+               <obj_property name="ObjectShortName">imag_op_3_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_3_address1" type="array">
+               <obj_property name="ElementShortName">imag_op_3_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_3_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_3_d0" type="array">
+               <obj_property name="ElementShortName">imag_op_3_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_3_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_3_we0" type="logic">
+               <obj_property name="ElementShortName">imag_op_3_we0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_3_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_3_ce0" type="logic">
+               <obj_property name="ElementShortName">imag_op_3_ce0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_3_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_3_address0" type="array">
+               <obj_property name="ElementShortName">imag_op_3_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_3_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_2_q1" type="array">
+               <obj_property name="ElementShortName">imag_op_2_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_2_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_2_ce1" type="logic">
+               <obj_property name="ElementShortName">imag_op_2_ce1</obj_property>
+               <obj_property name="ObjectShortName">imag_op_2_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_2_address1" type="array">
+               <obj_property name="ElementShortName">imag_op_2_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_2_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_2_d0" type="array">
+               <obj_property name="ElementShortName">imag_op_2_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_2_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_2_we0" type="logic">
+               <obj_property name="ElementShortName">imag_op_2_we0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_2_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_2_ce0" type="logic">
+               <obj_property name="ElementShortName">imag_op_2_ce0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_2_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_2_address0" type="array">
+               <obj_property name="ElementShortName">imag_op_2_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_2_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_1_q1" type="array">
+               <obj_property name="ElementShortName">imag_op_1_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_1_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_1_ce1" type="logic">
+               <obj_property name="ElementShortName">imag_op_1_ce1</obj_property>
+               <obj_property name="ObjectShortName">imag_op_1_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_1_address1" type="array">
+               <obj_property name="ElementShortName">imag_op_1_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_1_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_1_d0" type="array">
+               <obj_property name="ElementShortName">imag_op_1_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_1_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_1_we0" type="logic">
+               <obj_property name="ElementShortName">imag_op_1_we0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_1_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_1_ce0" type="logic">
+               <obj_property name="ElementShortName">imag_op_1_ce0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_1_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_1_address0" type="array">
+               <obj_property name="ElementShortName">imag_op_1_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_1_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_0_q1" type="array">
+               <obj_property name="ElementShortName">imag_op_0_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_0_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_0_ce1" type="logic">
+               <obj_property name="ElementShortName">imag_op_0_ce1</obj_property>
+               <obj_property name="ObjectShortName">imag_op_0_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_0_address1" type="array">
+               <obj_property name="ElementShortName">imag_op_0_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_0_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_0_d0" type="array">
+               <obj_property name="ElementShortName">imag_op_0_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_0_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_0_we0" type="logic">
+               <obj_property name="ElementShortName">imag_op_0_we0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_0_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_0_ce0" type="logic">
+               <obj_property name="ElementShortName">imag_op_0_ce0</obj_property>
+               <obj_property name="ObjectShortName">imag_op_0_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/imag_op_0_address0" type="array">
+               <obj_property name="ElementShortName">imag_op_0_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">imag_op_0_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_20_q1" type="array">
+               <obj_property name="ElementShortName">real_op_20_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_20_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_20_ce1" type="logic">
+               <obj_property name="ElementShortName">real_op_20_ce1</obj_property>
+               <obj_property name="ObjectShortName">real_op_20_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_20_address1" type="array">
+               <obj_property name="ElementShortName">real_op_20_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_20_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_20_d0" type="array">
+               <obj_property name="ElementShortName">real_op_20_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_20_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_20_we0" type="logic">
+               <obj_property name="ElementShortName">real_op_20_we0</obj_property>
+               <obj_property name="ObjectShortName">real_op_20_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_20_ce0" type="logic">
+               <obj_property name="ElementShortName">real_op_20_ce0</obj_property>
+               <obj_property name="ObjectShortName">real_op_20_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_20_address0" type="array">
+               <obj_property name="ElementShortName">real_op_20_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_20_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_19_q1" type="array">
+               <obj_property name="ElementShortName">real_op_19_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_19_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_19_ce1" type="logic">
+               <obj_property name="ElementShortName">real_op_19_ce1</obj_property>
+               <obj_property name="ObjectShortName">real_op_19_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_19_address1" type="array">
+               <obj_property name="ElementShortName">real_op_19_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_19_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_19_d0" type="array">
+               <obj_property name="ElementShortName">real_op_19_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_19_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_19_we0" type="logic">
+               <obj_property name="ElementShortName">real_op_19_we0</obj_property>
+               <obj_property name="ObjectShortName">real_op_19_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_19_ce0" type="logic">
+               <obj_property name="ElementShortName">real_op_19_ce0</obj_property>
+               <obj_property name="ObjectShortName">real_op_19_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_19_address0" type="array">
+               <obj_property name="ElementShortName">real_op_19_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_19_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_18_q1" type="array">
+               <obj_property name="ElementShortName">real_op_18_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_18_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_18_ce1" type="logic">
+               <obj_property name="ElementShortName">real_op_18_ce1</obj_property>
+               <obj_property name="ObjectShortName">real_op_18_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_18_address1" type="array">
+               <obj_property name="ElementShortName">real_op_18_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_18_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_18_d0" type="array">
+               <obj_property name="ElementShortName">real_op_18_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_18_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_18_we0" type="logic">
+               <obj_property name="ElementShortName">real_op_18_we0</obj_property>
+               <obj_property name="ObjectShortName">real_op_18_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_18_ce0" type="logic">
+               <obj_property name="ElementShortName">real_op_18_ce0</obj_property>
+               <obj_property name="ObjectShortName">real_op_18_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_18_address0" type="array">
+               <obj_property name="ElementShortName">real_op_18_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_18_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_17_q1" type="array">
+               <obj_property name="ElementShortName">real_op_17_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_17_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_17_ce1" type="logic">
+               <obj_property name="ElementShortName">real_op_17_ce1</obj_property>
+               <obj_property name="ObjectShortName">real_op_17_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_17_address1" type="array">
+               <obj_property name="ElementShortName">real_op_17_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_17_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_17_d0" type="array">
+               <obj_property name="ElementShortName">real_op_17_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_17_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_17_we0" type="logic">
+               <obj_property name="ElementShortName">real_op_17_we0</obj_property>
+               <obj_property name="ObjectShortName">real_op_17_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_17_ce0" type="logic">
+               <obj_property name="ElementShortName">real_op_17_ce0</obj_property>
+               <obj_property name="ObjectShortName">real_op_17_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_17_address0" type="array">
+               <obj_property name="ElementShortName">real_op_17_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_17_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_16_q1" type="array">
+               <obj_property name="ElementShortName">real_op_16_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_16_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_16_ce1" type="logic">
+               <obj_property name="ElementShortName">real_op_16_ce1</obj_property>
+               <obj_property name="ObjectShortName">real_op_16_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_16_address1" type="array">
+               <obj_property name="ElementShortName">real_op_16_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_16_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_16_d0" type="array">
+               <obj_property name="ElementShortName">real_op_16_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_16_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_16_we0" type="logic">
+               <obj_property name="ElementShortName">real_op_16_we0</obj_property>
+               <obj_property name="ObjectShortName">real_op_16_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_16_ce0" type="logic">
+               <obj_property name="ElementShortName">real_op_16_ce0</obj_property>
+               <obj_property name="ObjectShortName">real_op_16_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_16_address0" type="array">
+               <obj_property name="ElementShortName">real_op_16_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_16_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_15_q1" type="array">
+               <obj_property name="ElementShortName">real_op_15_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_15_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_15_ce1" type="logic">
+               <obj_property name="ElementShortName">real_op_15_ce1</obj_property>
+               <obj_property name="ObjectShortName">real_op_15_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_15_address1" type="array">
+               <obj_property name="ElementShortName">real_op_15_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_15_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_15_d0" type="array">
+               <obj_property name="ElementShortName">real_op_15_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_15_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_15_we0" type="logic">
+               <obj_property name="ElementShortName">real_op_15_we0</obj_property>
+               <obj_property name="ObjectShortName">real_op_15_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_15_ce0" type="logic">
+               <obj_property name="ElementShortName">real_op_15_ce0</obj_property>
+               <obj_property name="ObjectShortName">real_op_15_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_15_address0" type="array">
+               <obj_property name="ElementShortName">real_op_15_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_15_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_14_q1" type="array">
+               <obj_property name="ElementShortName">real_op_14_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_14_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_14_ce1" type="logic">
+               <obj_property name="ElementShortName">real_op_14_ce1</obj_property>
+               <obj_property name="ObjectShortName">real_op_14_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_14_address1" type="array">
+               <obj_property name="ElementShortName">real_op_14_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_14_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_14_d0" type="array">
+               <obj_property name="ElementShortName">real_op_14_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_14_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_14_we0" type="logic">
+               <obj_property name="ElementShortName">real_op_14_we0</obj_property>
+               <obj_property name="ObjectShortName">real_op_14_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_14_ce0" type="logic">
+               <obj_property name="ElementShortName">real_op_14_ce0</obj_property>
+               <obj_property name="ObjectShortName">real_op_14_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_14_address0" type="array">
+               <obj_property name="ElementShortName">real_op_14_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_14_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_13_q1" type="array">
+               <obj_property name="ElementShortName">real_op_13_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_13_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_13_ce1" type="logic">
+               <obj_property name="ElementShortName">real_op_13_ce1</obj_property>
+               <obj_property name="ObjectShortName">real_op_13_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_13_address1" type="array">
+               <obj_property name="ElementShortName">real_op_13_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_13_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_13_d0" type="array">
+               <obj_property name="ElementShortName">real_op_13_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_13_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_13_we0" type="logic">
+               <obj_property name="ElementShortName">real_op_13_we0</obj_property>
+               <obj_property name="ObjectShortName">real_op_13_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_13_ce0" type="logic">
+               <obj_property name="ElementShortName">real_op_13_ce0</obj_property>
+               <obj_property name="ObjectShortName">real_op_13_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_13_address0" type="array">
+               <obj_property name="ElementShortName">real_op_13_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_13_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_12_q1" type="array">
+               <obj_property name="ElementShortName">real_op_12_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_12_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_12_ce1" type="logic">
+               <obj_property name="ElementShortName">real_op_12_ce1</obj_property>
+               <obj_property name="ObjectShortName">real_op_12_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_12_address1" type="array">
+               <obj_property name="ElementShortName">real_op_12_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_12_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_12_d0" type="array">
+               <obj_property name="ElementShortName">real_op_12_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_12_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_12_we0" type="logic">
+               <obj_property name="ElementShortName">real_op_12_we0</obj_property>
+               <obj_property name="ObjectShortName">real_op_12_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_12_ce0" type="logic">
+               <obj_property name="ElementShortName">real_op_12_ce0</obj_property>
+               <obj_property name="ObjectShortName">real_op_12_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_12_address0" type="array">
+               <obj_property name="ElementShortName">real_op_12_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_12_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_11_q1" type="array">
+               <obj_property name="ElementShortName">real_op_11_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_11_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_11_ce1" type="logic">
+               <obj_property name="ElementShortName">real_op_11_ce1</obj_property>
+               <obj_property name="ObjectShortName">real_op_11_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_11_address1" type="array">
+               <obj_property name="ElementShortName">real_op_11_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_11_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_11_d0" type="array">
+               <obj_property name="ElementShortName">real_op_11_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_11_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_11_we0" type="logic">
+               <obj_property name="ElementShortName">real_op_11_we0</obj_property>
+               <obj_property name="ObjectShortName">real_op_11_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_11_ce0" type="logic">
+               <obj_property name="ElementShortName">real_op_11_ce0</obj_property>
+               <obj_property name="ObjectShortName">real_op_11_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_11_address0" type="array">
+               <obj_property name="ElementShortName">real_op_11_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_11_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_10_q1" type="array">
+               <obj_property name="ElementShortName">real_op_10_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_10_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_10_ce1" type="logic">
+               <obj_property name="ElementShortName">real_op_10_ce1</obj_property>
+               <obj_property name="ObjectShortName">real_op_10_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_10_address1" type="array">
+               <obj_property name="ElementShortName">real_op_10_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_10_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_10_d0" type="array">
+               <obj_property name="ElementShortName">real_op_10_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_10_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_10_we0" type="logic">
+               <obj_property name="ElementShortName">real_op_10_we0</obj_property>
+               <obj_property name="ObjectShortName">real_op_10_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_10_ce0" type="logic">
+               <obj_property name="ElementShortName">real_op_10_ce0</obj_property>
+               <obj_property name="ObjectShortName">real_op_10_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_10_address0" type="array">
+               <obj_property name="ElementShortName">real_op_10_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_10_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_9_q1" type="array">
+               <obj_property name="ElementShortName">real_op_9_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_9_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_9_ce1" type="logic">
+               <obj_property name="ElementShortName">real_op_9_ce1</obj_property>
+               <obj_property name="ObjectShortName">real_op_9_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_9_address1" type="array">
+               <obj_property name="ElementShortName">real_op_9_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_9_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_9_d0" type="array">
+               <obj_property name="ElementShortName">real_op_9_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_9_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_9_we0" type="logic">
+               <obj_property name="ElementShortName">real_op_9_we0</obj_property>
+               <obj_property name="ObjectShortName">real_op_9_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_9_ce0" type="logic">
+               <obj_property name="ElementShortName">real_op_9_ce0</obj_property>
+               <obj_property name="ObjectShortName">real_op_9_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_9_address0" type="array">
+               <obj_property name="ElementShortName">real_op_9_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_9_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_8_q1" type="array">
+               <obj_property name="ElementShortName">real_op_8_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_8_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_8_ce1" type="logic">
+               <obj_property name="ElementShortName">real_op_8_ce1</obj_property>
+               <obj_property name="ObjectShortName">real_op_8_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_8_address1" type="array">
+               <obj_property name="ElementShortName">real_op_8_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_8_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_8_d0" type="array">
+               <obj_property name="ElementShortName">real_op_8_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_8_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_8_we0" type="logic">
+               <obj_property name="ElementShortName">real_op_8_we0</obj_property>
+               <obj_property name="ObjectShortName">real_op_8_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_8_ce0" type="logic">
+               <obj_property name="ElementShortName">real_op_8_ce0</obj_property>
+               <obj_property name="ObjectShortName">real_op_8_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_8_address0" type="array">
+               <obj_property name="ElementShortName">real_op_8_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_8_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_7_q1" type="array">
+               <obj_property name="ElementShortName">real_op_7_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_7_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_7_ce1" type="logic">
+               <obj_property name="ElementShortName">real_op_7_ce1</obj_property>
+               <obj_property name="ObjectShortName">real_op_7_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_7_address1" type="array">
+               <obj_property name="ElementShortName">real_op_7_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_7_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_7_d0" type="array">
+               <obj_property name="ElementShortName">real_op_7_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_7_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_7_we0" type="logic">
+               <obj_property name="ElementShortName">real_op_7_we0</obj_property>
+               <obj_property name="ObjectShortName">real_op_7_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_7_ce0" type="logic">
+               <obj_property name="ElementShortName">real_op_7_ce0</obj_property>
+               <obj_property name="ObjectShortName">real_op_7_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_7_address0" type="array">
+               <obj_property name="ElementShortName">real_op_7_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_7_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_6_q1" type="array">
+               <obj_property name="ElementShortName">real_op_6_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_6_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_6_ce1" type="logic">
+               <obj_property name="ElementShortName">real_op_6_ce1</obj_property>
+               <obj_property name="ObjectShortName">real_op_6_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_6_address1" type="array">
+               <obj_property name="ElementShortName">real_op_6_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_6_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_6_d0" type="array">
+               <obj_property name="ElementShortName">real_op_6_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_6_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_6_we0" type="logic">
+               <obj_property name="ElementShortName">real_op_6_we0</obj_property>
+               <obj_property name="ObjectShortName">real_op_6_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_6_ce0" type="logic">
+               <obj_property name="ElementShortName">real_op_6_ce0</obj_property>
+               <obj_property name="ObjectShortName">real_op_6_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_6_address0" type="array">
+               <obj_property name="ElementShortName">real_op_6_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_6_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_5_q1" type="array">
+               <obj_property name="ElementShortName">real_op_5_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_5_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_5_ce1" type="logic">
+               <obj_property name="ElementShortName">real_op_5_ce1</obj_property>
+               <obj_property name="ObjectShortName">real_op_5_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_5_address1" type="array">
+               <obj_property name="ElementShortName">real_op_5_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_5_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_5_d0" type="array">
+               <obj_property name="ElementShortName">real_op_5_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_5_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_5_we0" type="logic">
+               <obj_property name="ElementShortName">real_op_5_we0</obj_property>
+               <obj_property name="ObjectShortName">real_op_5_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_5_ce0" type="logic">
+               <obj_property name="ElementShortName">real_op_5_ce0</obj_property>
+               <obj_property name="ObjectShortName">real_op_5_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_5_address0" type="array">
+               <obj_property name="ElementShortName">real_op_5_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_5_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_4_q1" type="array">
+               <obj_property name="ElementShortName">real_op_4_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_4_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_4_ce1" type="logic">
+               <obj_property name="ElementShortName">real_op_4_ce1</obj_property>
+               <obj_property name="ObjectShortName">real_op_4_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_4_address1" type="array">
+               <obj_property name="ElementShortName">real_op_4_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_4_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_4_d0" type="array">
+               <obj_property name="ElementShortName">real_op_4_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_4_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_4_we0" type="logic">
+               <obj_property name="ElementShortName">real_op_4_we0</obj_property>
+               <obj_property name="ObjectShortName">real_op_4_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_4_ce0" type="logic">
+               <obj_property name="ElementShortName">real_op_4_ce0</obj_property>
+               <obj_property name="ObjectShortName">real_op_4_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_4_address0" type="array">
+               <obj_property name="ElementShortName">real_op_4_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_4_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_3_q1" type="array">
+               <obj_property name="ElementShortName">real_op_3_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_3_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_3_ce1" type="logic">
+               <obj_property name="ElementShortName">real_op_3_ce1</obj_property>
+               <obj_property name="ObjectShortName">real_op_3_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_3_address1" type="array">
+               <obj_property name="ElementShortName">real_op_3_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_3_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_3_d0" type="array">
+               <obj_property name="ElementShortName">real_op_3_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_3_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_3_we0" type="logic">
+               <obj_property name="ElementShortName">real_op_3_we0</obj_property>
+               <obj_property name="ObjectShortName">real_op_3_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_3_ce0" type="logic">
+               <obj_property name="ElementShortName">real_op_3_ce0</obj_property>
+               <obj_property name="ObjectShortName">real_op_3_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_3_address0" type="array">
+               <obj_property name="ElementShortName">real_op_3_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_3_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_2_q1" type="array">
+               <obj_property name="ElementShortName">real_op_2_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_2_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_2_ce1" type="logic">
+               <obj_property name="ElementShortName">real_op_2_ce1</obj_property>
+               <obj_property name="ObjectShortName">real_op_2_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_2_address1" type="array">
+               <obj_property name="ElementShortName">real_op_2_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_2_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_2_d0" type="array">
+               <obj_property name="ElementShortName">real_op_2_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_2_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_2_we0" type="logic">
+               <obj_property name="ElementShortName">real_op_2_we0</obj_property>
+               <obj_property name="ObjectShortName">real_op_2_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_2_ce0" type="logic">
+               <obj_property name="ElementShortName">real_op_2_ce0</obj_property>
+               <obj_property name="ObjectShortName">real_op_2_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_2_address0" type="array">
+               <obj_property name="ElementShortName">real_op_2_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_2_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_1_q1" type="array">
+               <obj_property name="ElementShortName">real_op_1_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_1_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_1_ce1" type="logic">
+               <obj_property name="ElementShortName">real_op_1_ce1</obj_property>
+               <obj_property name="ObjectShortName">real_op_1_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_1_address1" type="array">
+               <obj_property name="ElementShortName">real_op_1_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_1_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_1_d0" type="array">
+               <obj_property name="ElementShortName">real_op_1_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_1_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_1_we0" type="logic">
+               <obj_property name="ElementShortName">real_op_1_we0</obj_property>
+               <obj_property name="ObjectShortName">real_op_1_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_1_ce0" type="logic">
+               <obj_property name="ElementShortName">real_op_1_ce0</obj_property>
+               <obj_property name="ObjectShortName">real_op_1_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_1_address0" type="array">
+               <obj_property name="ElementShortName">real_op_1_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_1_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_0_q1" type="array">
+               <obj_property name="ElementShortName">real_op_0_q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_0_q1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_0_ce1" type="logic">
+               <obj_property name="ElementShortName">real_op_0_ce1</obj_property>
+               <obj_property name="ObjectShortName">real_op_0_ce1</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_0_address1" type="array">
+               <obj_property name="ElementShortName">real_op_0_address1[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_0_address1[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_0_d0" type="array">
+               <obj_property name="ElementShortName">real_op_0_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_0_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_0_we0" type="logic">
+               <obj_property name="ElementShortName">real_op_0_we0</obj_property>
+               <obj_property name="ObjectShortName">real_op_0_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_0_ce0" type="logic">
+               <obj_property name="ElementShortName">real_op_0_ce0</obj_property>
+               <obj_property name="ObjectShortName">real_op_0_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_op_0_address0" type="array">
+               <obj_property name="ElementShortName">real_op_0_address0[5:0]</obj_property>
+               <obj_property name="ObjectShortName">real_op_0_address0[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group314" type="group">
+         <obj_property name="label">C Inputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group315" type="group">
+            <obj_property name="label">return(memory)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_sample_q0" type="array">
+               <obj_property name="ElementShortName">real_sample_q0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">real_sample_q0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_sample_ce0" type="logic">
+               <obj_property name="ElementShortName">real_sample_ce0</obj_property>
+               <obj_property name="ObjectShortName">real_sample_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/real_sample_address0" type="array">
+               <obj_property name="ElementShortName">real_sample_address0[9:0]</obj_property>
+               <obj_property name="ObjectShortName">real_sample_address0[9:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group319" type="group">
+         <obj_property name="label">Block-level IO Handshake</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/ap_start" type="logic">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/ap_done" type="logic">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/ap_idle" type="logic">
+            <obj_property name="ElementShortName">ap_idle</obj_property>
+            <obj_property name="ObjectShortName">ap_idle</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/ap_ready" type="logic">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group324" type="group">
+         <obj_property name="label">Reset</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/ap_rst" type="logic">
+            <obj_property name="ElementShortName">ap_rst</obj_property>
+            <obj_property name="ObjectShortName">ap_rst</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group326" type="group">
+         <obj_property name="label">Clock</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_dft_top/AESL_inst_dft/ap_clk" type="logic">
+            <obj_property name="ElementShortName">ap_clk</obj_property>
+            <obj_property name="ObjectShortName">ap_clk</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>
