@@ -9,3 +9,8 @@
 ### Device: xc7z020-clg400-1
 ### Flow: vivado
 ### Tclk: 5.6ns
+## Performance
+### cycle time: 5.6ns
+### fmax: 1/4.054ns
+### simulation time: 281324.4ns
+### score: 4910.18
