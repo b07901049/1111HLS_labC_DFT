@@ -11,6 +11,6 @@
 ### Tclk: 5.6ns
 ## Performance
 ### cycle time: 5.6ns
-### fmax: 1/4.054ns
+### fmax: 1/4.054ns = 246.67Mhz
 ### simulation time: 281324.4ns
 ### score: 4910.18
