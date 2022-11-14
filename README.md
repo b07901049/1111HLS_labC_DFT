@@ -8,4 +8,4 @@
 ## Project setting
 ### Device: xc7z020-clg400-1
 ### Flow: vivado
-### Tclk: 6ns
+### Tclk: 5.6ns
